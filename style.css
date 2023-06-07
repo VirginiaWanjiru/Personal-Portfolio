@@ -1,0 +1,125 @@
+*{
+margin :0;
+padding:0;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.hero{
+position: relative;
+width: 100%;
+height: auto;
+background:
+ #152238;
+
+
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin:auto;
+    padding:20px 0;
+    align-items:center;
+    justify-content: space-between;
+}
+
+nav ul li{
+display: inline-block;
+list-style:none;
+margin: 10px 20px;
+
+}
+
+nav ul li a{
+
+    text-decoration:none;
+    color:orange;
+    
+
+}
+
+nav ul li a:hover{
+    color:azure;
+
+
+}
+
+.detel{
+    margin-left: 8%;
+    margin-top:5%;
+   
+
+}
+
+.detel.h1{
+    font-size: 50px;
+    color: black;
+    margin-bottom: 20px;
+
+}
+
+span{
+    color: yellow;
+
+}
+
+.detel p{
+    color: orange;
+    line-height: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.detel a{
+
+    background: orange;
+    padding: 10px 18px;
+    text-decoration:none;
+    font-weight: bold;
+    color:#fff;
+    display: inline-block;
+    margin:30px 0;
+    border-radius:5px;
+
+}
+
+.detel a:hover{
+    color: yellow;
+
+}
+
+.images{
+
+    margin:auto;
+    right:100px;
+    height:400px;
+    position: absolute;
+    bottom: 10%;
+    width:400px;
+    border-radius:20%;
+    border:10px solid #ffa500;
+    ;
+
+}
+
+
+
+.detel li{
+ font-family:monospace;
+ color: azure;
+ font-weight: lighter;
+ font-size:larger;
+}
+
+form{
+    color: bisque;
+    font-size: large;
+    text-align: center;
+}
+
+
+
+
+
+
